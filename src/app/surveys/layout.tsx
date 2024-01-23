@@ -5,5 +5,5 @@ export default function PublicSurveyLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <div className="container mx-auto my-6">{children}</div>;
+  return <div className="container mx-auto">{children}</div>;
 }

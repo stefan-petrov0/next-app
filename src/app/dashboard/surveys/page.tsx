@@ -3,29 +3,6 @@ import { SurveyListDTO } from "@/types/SurveyListDTO";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-//   {
-//     id: "test-123",
-//     name: "My first Survey",
-//     introduction: "",
-//     manager: "test@email.com",
-//     status: "DRAFT",
-//   },
-//   {
-//     id: "test-321",
-//     name: "My second Survey",
-//     introduction: "",
-//     manager: "test2@email.com",
-//     status: "ONGOING",
-//   },
-//   {
-//     id: "test-213",
-//     name: "My third Survey",
-//     introduction: "",
-//     manager: "test@email2.com",
-//     status: "FINISHED",
-//   },
-// ];
-
 export default function SurveysPage() {
   const router = useRouter();
   const [surveys, setSurveys] = useState<SurveyListDTO["data"]>([]);

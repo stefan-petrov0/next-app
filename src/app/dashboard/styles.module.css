@@ -1,0 +1,4 @@
+.bgimage {
+    background-image: url('/clouds.png');
+    background-size: cover;
+}
