@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@huggingface/inference": "^2.6.4",
     "@prisma/client": "^5.7.1",
+    "keyword-extractor": "^0.0.28",
     "lodash": "^4.17.21",
     "next": "14.0.4",
     "prisma": "^5.7.1",
